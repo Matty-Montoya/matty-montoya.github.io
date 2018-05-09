@@ -1,2 +1,25 @@
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
+
+body {
+  text-align: center;
+}
+
+.jumbotron {
+  height: 100vh;
+  // margin-top: -75px;
+}
+
+nav {
+  // float: right;
+  height: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+  // padding-top: 10px;
+  // opacity: 0.2;
+
+  li {
+    font-size: 25px;
+    color: black;
+  }
+}
