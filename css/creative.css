@@ -52,6 +52,10 @@ p {
     color: #222222;
 }
 
+.contact-me {
+
+}
+
 .bg-primary {
   background-color: #222222;
 }
@@ -69,6 +73,7 @@ section {
   padding: 100px 0;
 }
 
+
 aside {
   padding: 50px 0;
 }
@@ -84,6 +89,15 @@ img {
 
 .no-padding {
   padding: 0;
+}
+
+.photo{
+  border: 3px solid #FFF;
+  box-shadow: 1px 1px 10px #fff;
+  border-radius: 50%;
+  height: 35vh;
+  width: 25vw;
+  visibility: visible;
 }
 
 .navbar {
@@ -137,6 +151,7 @@ img {
 .navbar-default .nav>li.active>a:hover, .navbar-default .nav>li.active>a:focus:hover {
   background-color: transparent;
 }
+
 
 @media (min-width: 768px) {
   .navbar-default {
