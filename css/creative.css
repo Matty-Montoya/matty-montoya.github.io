@@ -96,8 +96,10 @@ img {
   box-shadow: 1px 1px 10px #fff;
   border-radius: 50%;
   height: 35vh;
-  width: 25vw;
+  width: 20vw;
   visibility: visible;
+  margin-left: 25%;
+
 }
 
 .navbar {
@@ -105,6 +107,10 @@ img {
   border-width: 0 0 0px;
 }
 
+
+.navbar-brand{
+  font-size: 25px;
+}
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
@@ -135,7 +141,7 @@ img {
 .navbar-default .nav>li>a, .navbar-default .nav>li>a:focus {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 20px;
   color: #222222;
 }
 
@@ -176,7 +182,7 @@ img {
   }
   .navbar-default.affix .navbar-header .navbar-brand {
     color: #F05F40;
-    font-size: 14px;
+    font-size: 25px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
     color: #eb3812;
