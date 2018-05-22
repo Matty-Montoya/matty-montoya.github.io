@@ -17,14 +17,23 @@
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="font-mfizz-2.4.1/font-mfizz.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-    <!-- Plugin CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+      <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Theme CSS -->
     <link href="css/creative.css" rel="stylesheet">
+
+    <!--Scripts-->
+    <script type="text/javascript">
+        $('.carousel').carousel({
+          interval: 5000
+        })
+    </script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -72,12 +81,12 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Matthew Rafael Montoya</h1>
+                <h1 class="Anton">Matthew Rafael Montoya</h1>
                 <hr>
-                <h2>Full-Stack Web Developer</h2>
-                <h2>Lowell/Boston, MA</h2>
+                <h2 class="Oswald">Full-Stack Web Developer</h2>
+                <h2 class="Oswald">Lowell/Boston, MA</h2>
                 <br>
-                <a href="#contact" class="page-scroll btn btn-primary btn-xl sr-button contact-me">Contact Me!</a>
+                <a href="#contact" class="page-scroll btn btn-primary btn-xl oswald sr-button">Contact Me!</a>
             </div>
         </div>
     </header>
@@ -91,7 +100,7 @@
             <div class="col-lg-8 col-xs-12 text-center">
                 <h2 class="section-heading">About Me!</h2>
                 <hr class="light">
-                  <p class="text-faded">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p class="text-faded oswald">Hi! My name is Matthew Montoya</p>
                   <a href="#skills" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
             </div>
         </div>
@@ -112,163 +121,185 @@
                 <div class="col-lg-3 col-md-6 col-xs-6 text-center">
                     <div class="service-box">
                         <i class="icons fa fa-4x fa-html5 text-primary sr-icons"></i>
-                        <h3>HTML5</h3>
+                        <h3 class="oswald">HTML5</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-xs-6 text-center">
                     <div class="service-box">
-                        <i class="icons fa fa-4x fa-css3 text-primary sr-icons"></i>
-                        <h3>CSS3</h3>
+                        <i class="icons mfizz icon-bootstrap text-primary sr-icons"></i>
+                        <h3 class="oswald">Boostrap</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-xs-6 text-center">
                     <div class="service-box">
-                        <i class="icons fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>JavaScript</h3>
+                        <i class="icons fab fa-4x fa-css3-alt text-primary sr-icons"></i>
+                        <h3 class="oswald">CSS3</h3>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-xs-6 text-center">
-                    <div class="service-box">
-                        <i class="icons fa fa-4x fa-heart text-primary sr-icons"></i>
-                          <h3>PostgreSQL</h3>
-                    </div>
-                </div>
+                  <div class="col-lg-3 col-md-6 col-xs-6 text-center">
+                      <div class="service-box">
+                          <i class="icons mfizz icon-sass text-primary sr-icons"></i>
+                            <h3 class="oswald">SASS</h3>
+                      </div>
+                  </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-xs-6 text-center">
-                    <div class="service-box">
-                        <!-- <i class="fa fa-4x fa-diamond text-primary sr-icons"></i> -->
-                        <h3>Boostrap</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-xs-6 text-center">
-                    <div class="service-box">
-                        <!-- <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i> -->
-                        <h3>SASS</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-xs-6 text-center">
-                    <div class="service-box">
-                        <!-- <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i> -->
-                        <h3>Ruby</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-xs-6 text-center">
-                    <div class="service-box">
-                        <!-- <i class="fa fa-4x fa-heart text-primary sr-icons"></i> -->
-                          <h3>MongoDB</h3>
-                    </div>
-                </div>
+              <div class="col-lg-3 col-md-6 col-xs-6 text-center">
+                  <div class="service-box">
+                      <i class="icons fab fa-4x fa-js text-primary sr-icons"></i>
+                      <h3 class="oswald">JavaScript</h3>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-xs-6 text-center">
+                  <div class="service-box">
+                      <i class="icons mfizz icon-jquery text-primary sr-icons"></i>
+                      <h3 class="oswald">jQuery</h3>
+
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-xs-6 text-center">
+                  <div class="service-box">
+                    <i class="icons fas fa-4x fa-code text-primary sr-icons"></i>
+                    <h3 class="oswald">Handlebars</h3>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-xs-6 text-center">
+                  <div class="service-box">
+                      <i class="icons mfizz icon-postgres text-primary sr-icons"></i>
+                        <h3 class="oswald">PostgreSQL</h3>
+                  </div>
+              </div>
             </div>
               <div class="row">
+                <div class="col-lg-3 col-md-6 col-xs-6 text-center">
+                    <div class="service-box">
+                        <i class="icons fab fa-node fa-4x text-primary sr-icons"></i>
+                        <h3 class="oswald">Node.js</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-xs-6 text-center">
+                    <div class="service-box">
+                        <i class="icons mfizz icon-ruby text-primary sr-icons"></i>
+                        <h3 class="oswald">Ruby</h3>
+                    </div>
+                </div>
+                 <div class="col-lg-3 col-md-6 col-xs-6 text-center">
+                    <div class="service-box">
+                        <i class="icons mfizz icon-ruby-on-rails text-primary sr-icons"></i>
+                        <h3 class="oswald">Ruby on Rails</h3>
+                    </div>
+                </div>
                   <div class="col-lg-3 col-md-6 col-xs-6 text-center">
                       <div class="service-box">
-                          <!-- <i class="fa fa-4x fa-diamond text-primary sr-icons"></i> -->
-                          <h3>jQuery</h3>
-
-                      </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 col-xs-6 text-center">
-                      <div class="service-box">
-                          <!-- <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i> -->
-                          <h3>Ember.js</h3>
-                      </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 col-xs-6 text-center">
-                      <div class="service-box">
-                          <!-- <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i> -->
-                          <h3>Ruby on Rails</h3>
-                      </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 col-xs-6 text-center">
-                      <div class="service-box">
-                          <!-- <i class="fa fa-4x fa-heart text-primary sr-icons"></i> -->
-                          <h3>Moongoose.js</h3>
+                          <i class="icons mfizz icon-mongodb text-primary sr-icons"></i>
+                            <h3 class="oswald">MongoDB</h3>
                       </div>
                   </div>
               </div>
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-xs-6 text-center">
+                  <div class="col-lg-4 col-md-6 col-xs-6 text-center">
+                      <div class="service-box">
+                          <i class="icons fas fa-4x fa-file-code text-primary sr-icons"></i>
+                          <h3 class="oswald">Mongoose.js</h3>
+                      </div>
+                  </div>
+                    <div class="col-lg-4 col-md-6 col-xs-6 text-center">
                         <div class="service-box">
-                          <h3>Handlebars</h3>
+                            <i class="icons fab fa-4x fa-ember text-primary sr-icons"></i>
+                            <h3 class="oswald">Ember.js</h3>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-xs-6 text-center">
-                        <div class="service-box">
-                            <!-- <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i> -->
-                            <h3>AJAX</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-xs-6 text-center">
-                        <div class="service-box">
-                            <!-- <i class="fa fa-4x text-primary sr-icons"></i> -->
-                            <h3>Node.js</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-xs-6 text-center">
-                        <div class="service-box">
-                          <h3>Express.js</h3>
-                        </div>
-                    </div>
+                  <div class="col-lg-4 col-md-6 col-xs-12 text-center">
+                      <div class="service-box">
+                        <i class="icons mfizz icon-nodejs text-primary sr-icons"></i>
+                        <h3 class="oswald">Express.js</h3>
+                      </div>
+                  </div>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="no-padding bg-dark" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center alter">
+                  <h2 class="section-heading">Projects</h2>
+                  <hr class="primary">
+              </div>
+          </div>
+      </div>
+      <div class="container-fluid">
+          <div class="row ">
+              <div class="col-lg-6 col-md-6 col-xs-12 portfolio-photots">
+                  <a href="" class="portfolio-box">
+                      <img src="img/xsandos.png" class="img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-category text-faded Anton">
+                                Front End Application
+                              </div>
+                              <div class="project-name">
+                                <h1 class="Anton">X's and O's</h1>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
 
-                                </div>
-                                <div class="project-name">
-                                  <h1>X's and O's</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Full-Stack Application
-                                </div>
-                                <div class="project-name">
-                                  <h1>JamMate</h1>
 
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Full-Stack Application
-                                </div>
-                                <div class="project-name">
-                                    <h1>Project 3</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
 
+              </div>
+              <div class="col-lg-6 col-md-6 col-xs-12 portfolio-photots">
+                  <a href="" class="portfolio-box">
+                      <img src="img/jammate.png" class="img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-category text-faded Anton">
+                                  Full-Stack Application
+                              </div>
+                              <div class="project-name">
+                                <h1 class="Anton">JamMate</h1>
+
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
             </div>
-        </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xs-12 portfolio-photots">
+                  <a href="" class="portfolio-box">
+                      <img src="img/sserpdrow.png" class="img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-category text-faded Anton">
+                                  Full-Stack Application
+                              </div>
+                              <div class="project-name">
+                                  <h1 class="Anton">Sserpdrow</h1>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xs-12 portfolio-photots">
+                  <a href="" class="portfolio-box">
+                      <img src="img/cssbuttons.png" class="img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-category text-faded Anton">
+                                  Personal Project
+                              </div>
+                              <div class="project-name">
+                                  <h1 class="Anton">CSS Buttons Animations</h1>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+          </div>
+      </div>
     </section>
-
 
     <section id="contact">
         <div class="container">
@@ -276,8 +307,8 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Contact</h2>
                     <hr class="primary">
-                    <p>Interested in meeting me?</p>
-                    <p>Please contact me and I would love to answer your questions!</p>
+                    <p class="oswald">Interested in meeting me?</p>
+                    <p class="oswald">Please contact me and I would love to answer your questions!</p>
                 </div>
                 <div class="col-lg-2 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
