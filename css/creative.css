@@ -154,10 +154,10 @@ img {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-  color: #F05F40;
+  color: #4169e1;
   /* font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; */
   font-family: 'Oswald', cursive;
-  font-size: 35px;
+  font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -193,13 +193,24 @@ img {
   background-color: transparent;
 }
 
-@media (max-width: 450px) {
+@media only screen and (max-width: 414px) {
 
   .photo{
     height: 200px;
     width: 200px;
   }
 
+  .Oswald {
+    font-size: 25px;
+  }
+
+  header .header-content .header-content-inner h1 {
+    font-size: 30px;
+  }
+
+  .section-heading {
+    font-size: 45px;
+  }
 }
 
 @media (min-width: 768px) {
