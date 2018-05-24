@@ -24,9 +24,14 @@ body {
   font-size: 38px;
 }
 
+.oswald-about {
+  font-family: 'Oswald', cursive;
+  font-size: 25px;
+}
+
 .oswald{
     font-family: 'Oswald', cursive;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .alter {
@@ -157,7 +162,7 @@ img {
   color: #4169e1;
   /* font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; */
   font-family: 'Oswald', cursive;
-  font-size: 20px;
+  font-size: 35px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -204,9 +209,18 @@ img {
     font-size: 25px;
   }
 
+  .Anton {
+    font-size: 25px;
+  }
+
   header .header-content .header-content-inner h1 {
     font-size: 30px;
   }
+
+  .navbar-default .navbar-header .navbar-brand {
+    font-size: 20px
+  }
+
 
   .section-heading {
     font-size: 45px;
