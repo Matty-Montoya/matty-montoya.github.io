@@ -198,33 +198,43 @@ img {
   background-color: transparent;
 }
 
-@media only screen and (max-width: 414px) {
+@media (min-width: 370px) {
 
-  .photo{
-    height: 200px;
-    width: 200px;
-  }
+header .header-content {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 0 50px;
+  height: 100vh;
+}
 
-  .Oswald {
-    font-size: 25px;
-  }
+.photo{
+  height: 200px;
+  width: 200px;
+}
 
-  .Anton {
-    font-size: 25px;
-  }
+.Oswald {
+  font-size: 25px;
+}
 
-  header .header-content .header-content-inner h1 {
-    font-size: 30px;
-  }
+.Anton {
+  font-size: 25px;
+}
 
-  .navbar-default .navbar-header .navbar-brand {
-    font-size: 20px
-  }
+header .header-content .header-content-inner h1 {
+  font-size: 30px;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+  font-size: 20px
+}
 
 
-  .section-heading {
-    font-size: 45px;
-  }
+.section-heading {
+  font-size: 45px;
+}
 }
 
 @media (min-width: 768px) {
@@ -333,11 +343,13 @@ header .header-content .header-content-inner p {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     padding: 0 50px;
+    height: 100vh;
   }
   header .header-content .header-content-inner {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 25%;
   }
   header .header-content .header-content-inner h1 {
     font-size: 80px;
