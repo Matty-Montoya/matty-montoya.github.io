@@ -201,6 +201,23 @@ img {
 
 @media only screen and (max-width: 414px) {
 
+  header {
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0, 0, 0, 0.6)), url('../img/header2.jpg');
+    text-align: center;
+    color: white;
+    position:relative;
+    background-attachment:fixed;
+  }
+
   .photo{
     height: 250px;
     width: 250px;
